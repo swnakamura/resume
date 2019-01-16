@@ -1,10 +1,12 @@
-\documentclass[a4paper]{woody-cv}
+\documentclass[letter]{woody-cv}
 \renewcommand{\baselinestretch}{0.75}
 \begin{document}
 
     \fullname{Shu}{Nakamura}
     \hspace{\fill}
-    \emailaddress{mailto:s2nakamu@edu.uwaterloo.ca}{s2nakamu@edu.uwaterloo.ca}
+    \emailaddress{mailto:s2nakamu@edu.uwaterloo.ca}{s2nakamu@edu.uwaterloo.ca}\\
+    \hspace{\fill}
+    \emailaddress{https://github.com/woodyZootopia}{https://github.com/woodyZootopia}
     %\textcolor{red}{My phone number is currently not available, so please contact me with an email.}\par
     %\textcolor{red}{Sorry for the inconvenience.}\\
 
@@ -16,33 +18,44 @@
         @ \bodyfont{Scipy, Pytorch, Chainer, Pandas, Matplotlib, TensorFlow, Keras, MongoDB and OpenCV}
         \columnbreak
         @ \bodyfont{Expertise with development on Linux, Git}
-        @ \bodyfont{High understanding of electronics, computer vision, sound processing, computer networking}
+        @ \bodyfont{Substantial understanding of electronics, computer vision, sound processing, computer networking}
         % @ \bodyfont{Fluent Speaker of Japanese}\\
     \end{easylist}
 \end{multicols}
 \subtitle{EXPERIENCE}
+\vspace{3mm}%for proper spacing
 \begin{easylist}
+    @ \companyfont{KIMIA Lab, }\datefont{Dec 2018 - Present}\\
+    \positionfont{Computer Vision Research Assistant}
+    @@ \bodyfont{Rewriting Radon transform program from MATLAB to C\texttt{++} for inference acceleration}\\
+    \vspace{3mm}%for proper spacing
+    @ \companyfont{WATonomous, Self Driving Car Team, }\datefont{Nov 2018 - Present}\\
+    \positionfont{Perception Engineer - Sign Detection}
+    @@ \bodyfont{Embedding an object-detection DNN to the Intel Arria 10 FPGA to significantly improve inference speed}\\
+    \vspace{3mm}%for proper spacing
     @ \companyfont{RIST, }\datefont{Dec. 2017 - Aug. 2018}\\
     \positionfont{Machine Learning Research Intern}
-    @@ \bodyfont{Created anomaly detector in printings, and decreased error rate by 70\%}
-    @@ \bodyfont{Created Sleep Apnea Syndrome detector using patients' X-ray photograph and increased precision by 30\%}
-    @ \companyfont{WATonomous, Self Driving Car Team, }\datefont{Nov 2018 - Present}\\
-    \positionfont{Sign Detection Team Core Member}
-    @@ \bodyfont{Working to embed a object-detection neural net to FPGA, to speed up the processing}\\
-    @ \companyfont{KIMIA Lab Undergraduate Research Assistant, }\datefont{Dec 2018 - Present}
-    @@ \bodyfont{Rewrite Radon transform program from MATLAB to C++ for acceleration}\\
+    @@ \bodyfont{Created anomaly detector in printed matters, and decreased error detection rate by 70\%}
+    @@ \bodyfont{Created Sleep Apnea Syndrome detector using patients' X-ray photographs and increased precision by 30\%}
 \end{easylist}
-\subtitle{RELEVANT ACTIVITIES}
+\vspace{3mm}%for proper spacing
+\subtitle{RELEVANT ACTIVITIES/PROJECTS}
+\vspace{3mm}%for proper spacing
 \begin{easylist}[itemize]
     @ \bodyfont{Japanese Olympiad in Informatics 2016 Finalist when in High School, placed in the top 80th out of 1000 participants in a nation-wide competitive program competition}
+    \vspace{3mm}%for proper spacing
     @ \bodyfont{Created CNN-based musical onset detector using Japanese rhythm game "Taiko: Drum Master" (\htmladdress{https://medium.com/datadriveninvestor/automatic-drummer-with-deep-learning-3e92723b5a79}{A report} and \htmladdress{https://gitlab.com/woodyZootopia/soundgame}{the source code} is available) by using Fourier Transforms to generate a mel-scale spectrogram to perform image analysis}
-    @ \bodyfont{Carried out a research on evaluation of several solutions of Rubik's Cube when in High School, with Monte Carlo method program written in C++}\\
-    @ \bodyfont{Working to code C compiler from scratch. Repository: \htmladdress{https://github.com/woodyZootopia/woodycc}{https://github.com/woodyZootopia/woodycc}}\\
+    \vspace{3mm}%for proper spacing
+    @ \bodyfont{Carried out a research on evaluation of several solutions of Rubik's Cube when in High School, with Monte Carlo method program written in C\texttt{++}}\\
+    \vspace{3mm}%for proper spacing
+    @ \bodyfont{Working to code C compiler from scratch. It can now compile basic arithmetics, calling of external functions with arguments, and branching. Repository: \htmladdress{https://github.com/woodyZootopia/woodycc}{https://github.com/woodyZootopia/woodycc}}\\
 \end{easylist}
 \subtitle{EDUCATION}
+\vspace{3mm}%for proper spacing
 \begin{easylist}
     @ \companyfont{University of Waterloo, } \datefont{Sep. 2018 - Present}\\
     \positionfont{Bachelor of Mathematics, Computer Science}
+    \vspace{3mm}%for proper spacing
     @ \companyfont{Kyoto University,} \datefont{Apr. 2017 - Present}\\
     \positionfont{Bachelor of Engineering, Electrical and Computer Engineering}
 \end{easylist}
